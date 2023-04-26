@@ -35,12 +35,15 @@
         }
 
         /* باکس های درون بخش سمت راست صفحه */
+        @font-face {
+            font-family: 'Peyda';
+            src: url(Peyda-Thin.ttf) format('truetype');
+        }
         .box {
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-family: Peyda;
             justify-content: center;
             border-radius: 10%;
             width: 450px;
@@ -52,6 +55,7 @@
             cursor: pointer;
             border-radius: 10px;
             box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+            font-family: 'Peyda', sans-serif;
         }
 
         .box:hover {
